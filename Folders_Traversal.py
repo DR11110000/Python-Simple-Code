@@ -1,3 +1,5 @@
+# run the file using python Folder_Traversal.py <folder_name>
+
 import os, sys
 import argparse
 
@@ -15,7 +17,7 @@ def process(file_type):
 
 
 	for name in filelist:
-		with open('F:\\file_name.txt', 'a') as f:
+		with open('F:\\file_name.txt', 'a') as f: // destination path
 			f.write(name)
 			f.write('\n')
 			f.close()
